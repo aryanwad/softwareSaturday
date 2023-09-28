@@ -1,4 +1,5 @@
 function changepage(){
-    let headingTag = document.getElementsByClassName("heading");
-    headingTag.style.color = "blue";
+    console.log("thius works");
+    let headingTag = document.getElementById("heading");
+    headingTag.style.color = "green";
 }
